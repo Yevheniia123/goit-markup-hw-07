@@ -1,0 +1,70 @@
+.command {
+    background-color: #F5F4FA;
+}
+.member {
+    color: $titleColor;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.function {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.command img {
+    margin-bottom: 30px;
+}
+.command-member {
+    display: flex;
+}
+.command-member>li:not(:last-child) {
+    margin-right: 30px;
+}
+.command-member>li {
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 
+    rgba(0, 0, 0, 0.2), 0px 1px 1px 
+    rgba(0, 0, 0, 0.14), 0px 1px 3px 
+    rgba(0, 0, 0, 0.12);
+    background: $backgroundColor;
+}
+.list-social-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 28px 44px 36px; 
+}
+.social-link {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    color: currentColor   
+}
+.social-item {
+    background: $backgroundColor;
+    fill: #afb1b8;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        background: $accentColor;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        fill: $backgroundColor; 
+    }
+}

@@ -1,0 +1,56 @@
+.list-client {
+    display: flex;
+}
+.client {
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 170px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #afb1b8; 
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        border: 1px solid $accentColor;
+        cursor: pointer;
+        fill: $accentColor;
+    }
+}
+.list-client>li:last-child {
+    margin-right: 0;
+}
+.list-client>li {
+    margin-right: 30px;
+}
+.client-logo {
+    color: currentColor;
+    display: block;
+}
+.yaco {
+    width: 44px;
+    height: 49px;
+}
+.tagline {
+    width: 40px;
+    height: 52px;
+}
+.company {
+    width: 41px;
+    height: 43px;
+}
+.foster {
+    width: 80px;
+    height: 42px;
+}
+.brand {
+    width: 59px;
+    height: 47px;
+}
+.tag {
+    width: 89px;
+    height: 45px;
+}
