@@ -19,6 +19,11 @@
         cursor: pointer;
         fill: $accentColor;
     }
+    &:focus {
+        border: 1px solid $accentColor;
+        cursor: pointer;
+        fill: $accentColor;
+    }
 }
 .list-client>li:last-child {
     margin-right: 0;
